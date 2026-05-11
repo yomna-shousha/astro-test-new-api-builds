@@ -10,5 +10,10 @@
 	"observability": {
 		"enabled": true
 	},
-	"upload_source_maps": true
+	"upload_source_maps": true,
+	"vars": {
+		"API_URL": "https://api.production.example.com",
+		"ENVIRONMENT": "production",
+		"FEATURE_FLAG": "enabled"
+	}
 }
