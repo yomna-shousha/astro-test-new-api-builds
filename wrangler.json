@@ -15,5 +15,12 @@
 		"API_URL": "https://api.production.example.com",
 		"ENVIRONMENT": "production",
 		"FEATURE_FLAG": "enabled"
+	},
+	"previews": {
+		"vars": {
+			"API_URL": "https://api.staging.example.com",
+			"ENVIRONMENT": "preview",
+			"FEATURE_FLAG": "disabled"
+		}
 	}
 }
