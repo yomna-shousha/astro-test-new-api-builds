@@ -16,5 +16,13 @@
 		"ENVIRONMENT": "production",
 		"FEATURE_FLAG": "disabled",
 		"TEST_SYNC": "from-wrangler-config"
+	},
+	"previews": {
+		"vars": {
+			"API_URL": "https://api.preview.example.com",
+			"ENVIRONMENT": "preview-from-config",
+			"FEATURE_FLAG": "preview-enabled",
+			"PREVIEW_ONLY_VAR": "this-should-only-exist-in-previews"
+		}
 	}
 }
